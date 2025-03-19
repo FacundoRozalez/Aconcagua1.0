@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+     margin: 0;   
+}
+
+/* header{
+    background-color: aquamarine;
+}  */
+nav{
+    margin-top: 5vh;
+    height: 5vh;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 2px;
+    padding-right: 5px;
+    border-right: 2px black solid;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+
+a:hover{
+    border-color: rgb(67, 127, 255) ;
+    background-color: rgb(67, 127, 255) ;
+}
+#encabezado {
+    width:100%;
+    height:90vh;
+}
+
+main{
+    background-image:linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0))
+}
+      
+footer{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 670px;
+    background-color: black;
+    display: block;
+}
+
+#piedepagina{
+    width:100%;
+    height:100vh;
+    display: block;
+}
+
+.general{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: 30px;
+    font-family:sans-serif;
+    width: max-content;
+    margin-left:20px;
+    border-radius:5px;
+    color:rgb(67, 127, 255);      
+    text-shadow:3px 3px 3px rgb(0, 0, 0)
+}
+
+.producto img{
+    width:200px;
+    height:200px;
+    margin: 3px;
+    border-radius: 5px;
+}
+      
+.piedepagina{
+    width:100vw;
+    height:70vh;
+    display: block;
+}
+
+      
+.producto img:hover{
+    transform:scale(2);
+    transition: transform 0.3s;
+}
+
+p{
+    color:white;
+    display: block;
+}
